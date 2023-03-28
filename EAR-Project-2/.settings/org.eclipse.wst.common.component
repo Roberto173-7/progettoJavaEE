@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="EAR-Project-2">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+                        
+        
+        <dependent-module archiveName="JPA-Project-2.jar" deploy-path="/lib" handle="module:/resource/JPA-Project-2/JPA-Project-2">
+                                    
+            
+            <dependency-type>uses</dependency-type>
+                                
+        
+        </dependent-module>
+                        
+        
+        <dependent-module archiveName="DB-Project-2.jar" deploy-path="/lib" handle="module:/resource/DB-Project-2/DB-Project-2">
+                                    
+            
+            <dependency-type>uses</dependency-type>
+                                
+        
+        </dependent-module>
+                        
+        
+        <dependent-module archiveName="EJB-Project-2.jar" deploy-path="/" handle="module:/resource/EJB-Project-2/EJB-Project-2">
+                                    
+            
+            <dependent-object/>
+                                    
+            
+            <dependency-type>uses</dependency-type>
+                                
+        
+        </dependent-module>
+                
+        <dependent-module archiveName="Web-Rest-Project-2.war" deploy-path="/" handle="module:/resource/Web-Rest-Project-2/Web-Rest-Project-2">
+                        
+            <dependent-object/>
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="Web-Project-2.war" deploy-path="/" handle="module:/resource/Web-Project-2/Web-Project-2">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>

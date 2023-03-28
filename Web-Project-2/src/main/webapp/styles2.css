@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+input {
+	width: 40%;
+	padding: 4px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+}
+
+#checkboxes {
+	width: 2%;
+}
+
+#logo2 {
+	margin-bottom: 20px;
+	margin-left: 30px;
+	margin-right:20px;
+}
+
+#buttonCategorie {
+	padding: 2px;
+	align-content: center;
+}
+
+input.key {
+	font-family: 'password';
+}
+
+@font-face {
+	font-family: 'password';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		url(https://jsbin-user-assets.s3.amazonaws.com/rafaelcastrocouto/password.ttf);
+}
+
+body {
+	background-image: url("sfondo.jpg");
+	padding-top: 1%;
+}
+
+div {
+	background-color: rgba(255, 255, 255, 0.7);
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	border-radius: 10px;
+	width: 60%;
+	margin: auto;
+}
+
+span {
+	text-align: left;
+	justify-content: left;
+}
